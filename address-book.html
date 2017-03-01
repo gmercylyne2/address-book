@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>address book</title>
+  <!--load custom css-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!--load bootstrap css-->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <!--Create container-->
+  <div class="container">
+    <!--Create row-->
+    <div class="row">
+      <!--first column for form input-->
+      <div class="col-md-6">
+        <!--form area-->
+        <form id="new-contact" class="form-group">
+          <label>First Name</label><br />
+          <!--break-->
+          <input id="new-first-name" name="textinput" type="text" placeholder="" class="form-control input-md"><br />
+          <labe>Surname</label><br />
+            <input id="new-surname" name="textinput" type="text" placeholder="" class="form-control input-md"><br />
+            <label>Town</label><br />
+            <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md"><br />
+            <label>City</label><br />
+            <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md"><br />
+            <label>County</label><br />
+            <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md"><br />
+
+
+
+            <!--Add buttons below form-->
+            <button class="btn btn-primary" type="submit" value="Another address"> Another address</button>
+            <button class="btn" type="submit" value="Add">ADD</button>
+        </form>
+        <!--Display inputs-->
+        <h2>Contacts</h2>
+        <ul id="contacts">
+
+        </ul>
+
+
+      </div>
+      <!--end column-->
+
+      <!--2nd column area to output -->
+      <div class="col-md-6">
+        <!--display output area-->
+        <div class="contacts">
+          <p>Full Name</p>
+          <p>Address</p>
+
+
+
+        </div>
+        <!--end output area-->
+
+
+      </div>
+      <!--end column-->
+
+
+    </div>
+    <!--end row-->
+
+  </div>
+  <!--End container-->
+  <!--load jquery-->
+  <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+  <!--load custom js-->
+  <script type="text/javascript" src="js/scripts.js" </script>
+    < /body> < /
+    html >
